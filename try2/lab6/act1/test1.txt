@@ -1,0 +1,63 @@
+number1 is starting to cross.
+number2 is starting to cross.
+number3 is starting to cross.
+	number2 1 seconds.
+	number3 1 seconds.
+	number1 1 seconds.
+	number3 2 seconds.
+	number1 2 seconds.
+	number2 2 seconds.
+	number3 3 seconds.
+number2 leaves at Sicstine.
+number4 is starting to cross.
+	number1 3 seconds.
+	number3 4 seconds.
+	number1 4 seconds.
+	number4 1 seconds.
+	number3 5 seconds.
+	number4 2 seconds.
+	number1 5 seconds.
+	number3 6 seconds.
+number1 leaves at Merctran.
+	number4 3 seconds.
+number5 is starting to cross.
+	number3 7 seconds.
+	number4 4 seconds.
+	number5 1 seconds.
+	number3 8 seconds.
+	number5 2 seconds.
+number4 leaves at Merctran.
+number6 is starting to cross.
+	number3 9 seconds.
+	number6 1 seconds.
+	number5 3 seconds.
+	number3 10 seconds.
+	number5 4 seconds.
+	number6 2 seconds.
+	number3 11 seconds.
+	number6 3 seconds.
+	number5 5 seconds.
+	number3 12 seconds.
+	number6 4 seconds.
+	number5 6 seconds.
+	number3 13 seconds.
+	number6 5 seconds.
+	number5 7 seconds.
+	number3 14 seconds.
+	number5 8 seconds.
+	number6 6 seconds.
+number3 leaves at Sicstine.
+number7 is starting to cross.
+number5 leaves at Sicstine.
+number6 leaves at Merctran.
+	number7 1 seconds.
+	number7 2 seconds.
+	number7 3 seconds.
+	number7 4 seconds.
+	number7 5 seconds.
+	number7 6 seconds.
+	number7 7 seconds.
+	number7 8 seconds.
+	number7 9 seconds.
+	number7 10 seconds.
+number7 leaves at Sicstine.

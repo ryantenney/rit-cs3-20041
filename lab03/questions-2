@@ -1,0 +1,27 @@
+controller
+
+
+StorageObject
+	latchFrom(OutFlow)
+	updateValue(int)
+	phase1()
+	phase2()
+
+Bus
+	computerValue() : int
+
+Clock
+	tick()
+	phase
+
+OutFlow
+	fetchValue() : int
+
+InFlow
+	pullFrom(Counter)
+	pull() : int
+
+Counter
+	fetchValue() : int
+	phase1()
+	phase2()

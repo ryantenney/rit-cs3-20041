@@ -1,0 +1,91 @@
+Name: Ryan Tenney, Brad Moeller
+Class 4003-236-44
+
+Class Descriptions
+
+public class MDB
+	private Media database;
+	void main(string[] args);
+	private void add();
+	private void delete();
+	private void get();
+
+	Description:
+		Main class that solicits commands and input and delegates to the
+		Media class.
+
+public class Media
+	private ArrayList mediaObjects;
+	public Media();
+	public int add(MediaType addObj);
+	public void delete(int index);
+	public MediaType get(int index);
+
+	Description:
+		Contains the ArrayList that holds all the MediaType objects, 
+		and handles adding, deleting and fetching the objects.
+
+public class MediaType
+	public string MediaType;
+	public string Title;
+	public int Year;
+	public MediaType();
+
+	Description:
+		Base class for all other database records, contains the common
+		fields for the other mediatypes.
+
+public class Book extends MediaType
+	public string Name;
+	public string Publisher;
+	public Book();
+
+	Description:
+		The class describing the book data. Inherits the common fields 
+		from the MediaType class.
+		
+public class Audio extends MediaType
+	public string Name;
+	public string Distributor;
+	public Audio();
+
+	Description:
+		The class describing the common fields for objects containing
+ 		audio information.
+
+public class Tape extends Audio
+	public Tape();
+
+	Description:
+		The class describing the Audio Tape data members. Inherits all
+		fields from the Audio class.
+
+public class CD extends Audio
+	public CD();
+
+	Description:
+		The class describing the CD data members. Inherits all necessary
+		fields from the Audio class.
+
+public class Video extends MediaType
+	public string Studio;
+	public ArrayList Stars;
+
+	Description:
+		The class describing the common fields for objects containing
+		video information.
+
+public class DVD extends Video
+	public DVD();
+
+	Description:
+		The class describing the DVD data members. Inherits all
+		necessary fields from the Video class.
+
+public class VideoTape extends Video
+	public string TVorMovie;
+	public VideoTape();
+
+	Description:
+		The class describing the VideoTape data members. Extends the
+		Video class and adds one field.

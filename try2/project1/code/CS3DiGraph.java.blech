@@ -1,0 +1,147 @@
+/*
+ * CS3DiGraph.java
+ *
+ * $Id$
+ * 
+ * $Log$
+ *
+ */
+
+import java.util.*;
+
+/**
+ * CS3DiGraph
+ * 
+ * @author    Ryan Tenney
+ */
+public class CS3DiGraph implements DiGraph {
+
+    /**
+     * Adds a vertex to the graph. If the graph already contains a vertex
+     * with the given key the old data will be replaced by the new data.
+     * 
+     * @param key the key that identifies the vertex.
+     * @param data the data to be associated with the vertex.
+     */
+    public void addVertex( Object key, Object data ) {
+        
+    }
+
+    /**
+     *
+     *
+     */
+    public boolean isVertex( Object key ) {
+        
+    }
+
+    /**
+     *
+     *
+     */
+    public Object getVertexData( Object key ) 
+            throws NoSuchVertexException {
+        
+    }
+
+    /**
+     * Add an edge to the graph starting at the vertex idendified by
+     * fromKey and ending at the vertex iden
+     *
+     */
+    public void addEdge( Object fromKey, Object toKey, Object data ) 
+            throws NoSuchVertexException {
+        
+    }
+
+    /**
+     *
+     *
+     */
+    public boolean isEdge( Object fromKey, Object toKey ) 
+            throws NoSuchVertexException {
+        
+    }
+
+    /**
+     *
+     *
+     */
+    public Object getEdgeData( Object fromKey, Object toKey ) {
+            throws NoSuchVertexException {
+        
+    }
+
+    /**
+     *
+     *
+     */
+    public int numVertices() {
+
+    }
+
+    /**
+     *
+     *
+     */
+    public int inDegree( Object key ) {
+        
+    }
+
+    /**
+     * 
+     *
+     */
+    public int outDegree( Object key ) {
+        
+    }
+
+    /**
+     *
+     *
+     */
+    public Collection neighborData( Object key ) {
+        
+    }
+
+    /**
+     *
+     *
+     */
+    public Collection neighborKeys( Object key ) {
+        
+    }
+
+    /**
+     *
+     *
+     */
+    public Collection vertexData() {
+        
+    }
+
+    /**
+     *
+     *
+     */
+    public Collection vertexKeys() {
+        
+    }
+
+    /**
+     *
+     *
+     */
+    public Collection edgeData() {
+        
+    }
+
+    /**
+     *
+     *
+     */
+    public void clear() {
+        
+    }
+
+}

@@ -1,0 +1,42 @@
+4003-236 CS for AP
+Lab 7
+Activity 1
+
+Name:    Ryan Tenney
+
+
+1.  Draw your Huffman tree using the conventions illustrated below:
+
+                                weight
+                        +----------+-----------+
+                        |                      |
+                      left                   right 
+
+   |
++--+--+
+|     |
+b  +--+--+
+   |     |
+   a  +--+--+
+      |     |
+      c     !
+
+
+2.  Encoding Answers (Please add a space after each bit sequence that 
+    represents a single character so that your answer will be easier to read).
+
+      1. 00100 00101 11101 11101 00110 101 0000 1111 0001 010 011 011 1000
+
+      2. 11000 0000 1001 010 00111 011 010 1111 0001 010 101 11001 011 010
+	 1000 101 1101
+
+      3. 111000 101 11001 101 1111 11000 1000 1111 111001 1001 1001 1101
+
+
+3.  Decoding Answers
+
+      1. i love java
+
+      2. hot coffee
+
+      3. recursion is cool

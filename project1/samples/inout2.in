@@ -1,0 +1,6 @@
+EXTERNAL 4 4
+GATES 4
+IN_0 in 1 OUT-0
+IN_1 in 1 OUT-1
+IN_2 in 1 OUT-2
+IN_3 in 1 OUT-3

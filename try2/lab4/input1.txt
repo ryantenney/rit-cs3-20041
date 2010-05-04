@@ -1,0 +1,9 @@
+A
+B
+C
+AB1
+AC2
+D
+BC3
+CD4
+BD5

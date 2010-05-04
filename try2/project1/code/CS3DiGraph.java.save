@@ -1,0 +1,92 @@
+/*
+ * CS3DiGraph.java
+ *
+ * $Id$
+ * 
+ * $Log$
+ *
+ */
+
+import java.util.*;
+
+/**
+ * CS3DiGraph
+ * 
+ * @author    Ryan Tenney
+ */
+public class CS3DiGraph implements DiGraph {
+
+    Collection vertices = new HashMap();
+    Collection edges = new HashMap();
+
+    public void addVertex( Object key, Object data ) {
+        
+    }
+
+    public boolean isVertex( Object key ) {
+        
+    }
+
+    public Object getVertexData( Object key ) 
+            throws NoSuchVertexException {
+        
+    }
+
+    public void addEdge( Object fromKey, Object toKey, Object data ) 
+            throws NoSuchVertexException {
+        
+    }
+
+    public boolean isEdge( Object fromKey, Object toKey ) 
+            throws NoSuchVertexException {
+        
+    }
+
+    public Object getEdgeData( Object fromKey, Object toKey ) {
+            throws NoSuchVertexException {
+        
+    }
+
+    public int numVertices() {
+
+    }
+
+    public int inDegree( Object key ) {
+        
+    }
+
+    public int outDegree( Object key ) {
+        
+    }
+
+    public Collection neighborData( Object key ) {
+        
+    }
+
+    public Collection neighborKeys( Object key ) {
+        
+    }
+
+    public Collection vertexData() {
+        
+    }
+
+    public Collection vertexKeys() {
+        
+    }
+
+    public Collection edgeData() {
+        
+    }
+
+    public void clear() {
+        
+    }
+
+    private String objectConcat( Object obj1, Object obj2 ) {
+        
+    }
+
+    private 
+
+}

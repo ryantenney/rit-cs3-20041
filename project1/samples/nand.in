@@ -1,0 +1,5 @@
+EXTERNAL 2 1
+GATES 3
+nand_1 nand 2 OUT-0
+IN_0 in 1 nand_1-0
+IN_1 in 1 nand_1-1

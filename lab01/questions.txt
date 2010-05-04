@@ -1,0 +1,84 @@
+4003-236	Lab 1 - Activity 4 - Questions	 
+
+Your Name:		YOUR_ANSWER_HERE
+
+BEGINNER'S GUIDE QUESTIONS
+
+
+QUESTION 1: Describe two ways that you can log off the system.
+
+Answer: In gnome, Actions menu > Log out. Also, in the terminal 
+
+QUESTION 2: Name one thing that you should never do with your password.
+
+Answer: Give it to someone else
+
+QUESTION 3: How can you iconify a window?
+
+Answer: Click the 2nd button from the right on the window title bar
+
+QUESTION 4: Here is a filename pattern which includes some wildcards:
+
+	*a?[bc]
+
+Which of the filenames in the list below does this pattern match?
+
+	Abc		abc		barb-calc	storage-a.c
+	a:b		barb		barbara		*a?[bc]
+
+Answer: abc, barb-calc, storage-a.c, a:b, barb
+
+QUESTION 5: For each name above that did not match the pattern, explain
+why it did not match.
+
+Answer: Abc: there is no uppercase A in the pattern, or a lowercase A in the string
+barbara: doesnt end in either an B or C
+*a?[bc]: doesnt end in either an B or C
+
+QUESTION 6: Suppose a directory contains these files:
+
+	,info.sheet.ps	GET		info.sheet
+	,lab1.ps	GET-CONTROL	lab1.me
+	,logo.ps	READ_ME		questions
+	,survey		SCCS		survey
+
+
+and you want to print two of them, "GET-CONTROL" and "questions," to the
+line printer.  What is the shortest command (i.e. the smallest
+number of characters) that will accomplish this?
+Hint: use filename patterns to make the command shorter.
+
+Answer:
+
+QUESTION 7: Refer to Figure 11 on page 4-2 of the Beginner's Guide.
+Suppose that your working directory is "student," and you want to look
+at the contents of the file "part1" on the screen.  What is the
+shortest command that will accomplish this?  Hint: use filename
+patterns to make the command shorter.
+
+Answer: cd ./j*/p*/p*2/
+
+QUESTION 8: Look at the permissions of the file "stories" in the "pub"
+directory of the account "cs1."  For each of the three questions
+below, choose one of the following answers:
+
+	Nobody
+	Only the owner of the file
+	The owner and other accounts in the same group
+	Everybody
+
+Who can read the file?
+Answer: Everybody
+
+Who can write to the file?
+Answer: Only the owner of the fileE
+
+Who can execute the file?
+Answer: Nobody
+
+QUESTION 9: Suppose when you log in you get a message saying that you
+are over your quota for disk file storage, and must delete some files.
+What command would you use to find the directory in your account whose
+files occupy the most space?
+
+Answer: 

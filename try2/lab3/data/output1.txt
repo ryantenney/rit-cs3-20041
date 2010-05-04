@@ -1,0 +1,32 @@
+Incomplete Trips listed by exit number
+--------------------------------------
+
+Exit:  1
+    QWE456
+
+Exit:  11
+    XXX123
+
+Total vehicles:  2
+
+Billing information
+-------------------
+Tag:  ABC123
+  From 12 to 30 Toll:  $22.5
+  From 30 to 12 Toll:  $22.5
+
+  Total due:  $45.0
+
+Tag:  DFG321
+  From 45 to 5 Toll:  $50.0
+
+  Total due:  $50.0
+
+Tag:  JKL000
+  From 30 to 31 Toll:  $1.25
+
+  Total due:  $1.25
+
+
+Total Due:  $96.25
+

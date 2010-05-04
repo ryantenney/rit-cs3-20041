@@ -1,0 +1,40 @@
+4003-236 APCS
+Design/UML Lab
+Activity 1 Questions
+7 points
+
+Name: Ryan Tenney
+
+1. (1/2 point)
+TestRegistry
+
+
+2. (1 point)
+Job, getId, getTime, getResources, toString
+
+
+3. (1/2 point)
+Resources
+
+
+4. (1/2 point)
+TestRegistry
+
+
+5. (1 point)
+PrintQueue, Job
+
+
+6. (1 point)
+class Printer. type Job
+
+
+7. (1 point)
+c, w, h
+
+
+8. (1-1/2 points)
+No. Printer has a private instance of the class Registry, named 
+myRegistry. Because of this, that instance of Registry should be unable to 
+access the instance of Printer that created it.
+

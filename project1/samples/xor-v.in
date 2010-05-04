@@ -1,0 +1,10 @@
+OPTS -v
+EXTERNAL 2 1
+GATES 7
+or_1 or 2 OUT-0
+and_1 and 2 or_1-0
+and_2 and 2 or_1-1
+not_1 not 1 and_2-0
+not_2 not 1 and_1-1
+IN_0 in 1 and_1-0 not_1-0
+IN_1 in 1 and_2-1 not_2-0

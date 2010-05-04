@@ -1,0 +1,78 @@
+head	1.2;
+access;
+symbols;
+locks
+	rwt5629:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2005.01.05.13.32.40;	author rwt5629;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.01.05.13.29.01;	author rwt5629;	state Exp;
+branches;
+next	;
+
+
+desc
+@Compares TollRecord objects based on their defined Entry point.
+@
+
+
+1.2
+log
+@finished first half of 3rd activity
+@
+text
+@/*
+ * EntryComparator.java
+ * 
+ * $Id: EntryComparator.java,v 1.1 2005/01/05 13:29:01 rwt5629 Exp rwt5629 $
+ *
+ * $Log: EntryComparator.java,v $
+ * Revision 1.1  2005/01/05 13:29:01  rwt5629
+ * Initial revision
+ *
+ *
+ */
+
+import java.util.*;
+
+/**
+ * Class EntryComparator compares two TollREcord objects based on the exit
+ * number where they entered the thruway.
+ *
+ * @@author    Ryan Tenney
+ */
+public class EntryComparator implements Comparator {
+
+    public EntryComparator() {}
+
+    public int compare( Object o1, Object o2 ) throws ClassCastException {
+	Integer t1, t2;
+        t1 = new Integer( ((TollRecord)o1).getEntry() );
+        t2 = new Integer( ((TollRecord)o2).getEntry() );
+        return t1.compareTo( t2 );
+    }
+
+}
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d4 5
+a8 1
+ * $Id$
+a9 1
+ * $Log$
+d25 1
+a25 1
+    public int compare( Object o1, Object o2 ) {
+@

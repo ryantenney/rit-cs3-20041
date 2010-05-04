@@ -1,0 +1,5 @@
+EXTERNAL 2 1
+GATES 3
+and_1 and 2 OUT-0
+IN_0 in 1 and_1-0
+IN_1 in 1 and_1-1

@@ -1,0 +1,26 @@
+Threads Lab
+
+Team Members:	NAME1
+		NAME2
+
+
+1. In activity 1, which version of the program ran faster,
+single-threaded, or multithreaded? Show some of the data you
+collected.
+
+
+2. Why? (If you feel the result was counter-intuitive, explain why.)
+
+
+3. In activity 2, which version of the program ran faster,
+single-threaded, or multithreaded? Show some of the data you
+collected.
+
+
+4. Why? (If you feel the result was counter-intuitive, explain why.)
+
+
+5. Would your results change at all if the Java scheduler had multiple
+central processing units (CPU's) to work with?
+
+

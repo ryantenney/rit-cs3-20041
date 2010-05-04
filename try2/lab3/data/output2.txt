@@ -1,0 +1,58 @@
+Incomplete Trips listed by exit number
+--------------------------------------
+
+Exit:  1
+    GHI789
+
+Exit:  34
+    FGH678
+
+Exit:  40
+    BCD234
+
+Exit:  45
+    DEF456
+
+Total vehicles:  4
+
+Billing information
+-------------------
+Tag:  ABC123
+  From 1 to 10 Toll:  $11.25
+  From 10 to 1 Toll:  $11.25
+
+  Total due:  $22.5
+
+Tag:  BCD234
+  From 40 to 50 Toll:  $12.5
+  From 40 to 50 Toll:  $12.5
+  From 50 to 40 Toll:  $12.5
+  From 50 to 40 Toll:  $12.5
+  From 50 to 40 Toll:  $12.5
+
+  Total due:  $62.5
+
+Tag:  CDE345
+  From 46 to 38 Toll:  $10.0
+
+  Total due:  $10.0
+
+Tag:  EFG567
+  From 1 to 50 Toll:  $61.25
+  From 50 to 1 Toll:  $61.25
+
+  Total due:  $122.5
+
+Tag:  FGH678
+  From 9 to 10 Toll:  $1.25
+
+  Total due:  $1.25
+
+Tag:  HIJ890
+  From 37 to 34 Toll:  $3.75
+
+  Total due:  $3.75
+
+
+Total Due:  $222.5
+
